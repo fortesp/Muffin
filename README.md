@@ -1,6 +1,11 @@
 # Muffin 
 ## Media file cleaning tool 
 
+### 
+Filters and compares all the files in a directory recursively and outputs a list of potential garbage files and duplicate files by checking the filename similarity on a given threshold and content match.
+
+The motivation - To save disk space and avoid redundancy of media entertainment content.
+
 Steps
 - Select a directory that contains your media content.
 - Click on the Check button to analize the content recursively.
