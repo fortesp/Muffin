@@ -1,5 +1,5 @@
 # Muffin 
-## Media file cleaning tool 
+## Media Cleaning tool 
 
 ### 
 Filters and compares all the files in a directory recursively and outputs a list of potential garbage files and duplicate files by checking the filename similarity on a given threshold and content match.
