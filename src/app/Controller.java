@@ -1,4 +1,4 @@
-package Application;
+package app;
 
 import javafx.application.Application;
 import javafx.application.Platform;
@@ -129,7 +129,7 @@ public class Controller {
 
         File file = chooser.showDialog(btOpen.getScene().getWindow());
 
-        txtDir.setText(file.getAbsolutePath());
+        if(file != null) txtDir.setText(file.getAbsolutePath());
     }
 
     private String computeSpace(int v) {

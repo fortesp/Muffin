@@ -1,4 +1,4 @@
-package Application;
+package app;
 
 import org.apache.commons.io.FilenameUtils;
 import org.apache.commons.io.IOUtils;
